@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:7861";
+const API_URL = "https://love-back.onrender.com";
 
 export async function addToCart(product) {
   const response = await fetch(`${API_URL}/cart/add`, {
